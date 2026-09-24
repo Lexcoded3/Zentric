@@ -1,7 +1,7 @@
-# Zentric (Framer export) - map pretty page URLs to their .html files
+# Zentrix (Framer export) - map pretty page URLs to their .html files
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /2026/Zentric/
+  RewriteBase /2026/Zentrix/
 
   # /contact -> contact.html (header/nav links use "./contact")
   RewriteRule ^contact/?$ contact.html [L]

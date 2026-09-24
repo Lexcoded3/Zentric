@@ -1,8 +1,8 @@
-# Zentric Energy ⚡
+# Zentrix Energy ⚡
 
 **Smart Solar Solutions for Homes**
 
-![Zentric Energy homepage](docs/screenshot-home.png)
+![Zentrix Energy homepage](docs/screenshot-home.png)
 
 A fully client-side marketing site for a residential solar company — originally built in [Framer](https://framer.com), exported, and localized to run **100% offline** with zero external requests.
 
@@ -10,7 +10,7 @@ A fully client-side marketing site for a residential solar company — originall
 
 - ⛅ **Fully self-contained** — all fonts, images, search indexes and the Lenis smooth-scroll CSS are served locally. The site renders with the internet unplugged.
 - ⚛️ **Framer React runtime** — the original compiled React bundles hydrate the static HTML (animations, carousels, FAQ accordions, search) exactly as on the hosted version.
-- 🟡 **Brand refresh** — rebranded from Solaris → Zentric across HTML, compiled chunks, metadata and contact details.
+- 🟡 **Brand refresh** — rebranded from Solaris → Zentrix across HTML, compiled chunks, metadata and contact details.
 - 🖼️ **Real project photos** — the hero carousel uses actual installation photography.
 - 🧭 **Extended nav** — extra section links (How It Works, Testimonials, FAQ, Contact) injected after React hydration, so they never conflict with it.
 
@@ -33,8 +33,8 @@ npx serve .
 node serve.js
 ```
 
-Or just drop the folder into XAMPP's `htdocs` (e.g. `htdocs/Zentric`) and open
-`http://localhost/Zentric/`.
+Or just drop the folder into XAMPP's `htdocs` (e.g. `htdocs/Zentrix`) and open
+`http://localhost/Zentrix/`.
 
 > **Note:** serving from a subfolder is fully supported — all asset references are relative.
 
@@ -48,7 +48,7 @@ The repo is Pages-ready:
 Included support:
 - **`.nojekyll`** — skips Jekyll processing so all dotfiles/assets serve as-is
 - **`404.html`** — branded 404 shown for any unknown path, with a clean-URL shim
-  that redirects `/Zentric/contact` → `/Zentric/contact.html` automatically
+  that redirects `/Zentrix/contact` → `/Zentrix/contact.html` automatically
 
 ## Tech notes
 
@@ -60,4 +60,4 @@ Included support:
 
 ---
 
-© 2025 Zentric Energy. All rights reserved.
+© 2025 Zentrix Energy. All rights reserved.

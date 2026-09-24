@@ -1,4 +1,4 @@
-// Zentric nav extension: adds section links AFTER React hydration.
+// Zentrix nav extension: adds section links AFTER React hydration.
 // Idempotent, runs on both pages, never touches SSR content (no hydration mismatch).
 (function () {
   'use strict';
