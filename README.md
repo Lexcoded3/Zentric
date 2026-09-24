@@ -38,6 +38,18 @@ Or just drop the folder into XAMPP's `htdocs` (e.g. `htdocs/Zentric`) and open
 
 > **Note:** serving from a subfolder is fully supported — all asset references are relative.
 
+## Deploy to GitHub Pages
+
+The repo is Pages-ready:
+
+1. Repo **Settings → Pages** → Source: *Deploy from a branch* → `main` / `/(root)`
+2. Site goes live at `https://lexcoded3.github.io/Zentric/`
+
+Included support:
+- **`.nojekyll`** — skips Jekyll processing so all dotfiles/assets serve as-is
+- **`404.html`** — branded 404 shown for any unknown path, with a clean-URL shim
+  that redirects `/Zentric/contact` → `/Zentric/contact.html` automatically
+
 ## Tech notes
 
 - Built with [Framer](https://framer.com) (design + SSR export)
